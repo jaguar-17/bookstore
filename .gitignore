@@ -1,0 +1,19 @@
+# --- Directorios de compilación y temporales ---
+bin/
+obj/
+.vs/
+.vscode/
+
+# --- Archivos específicos de usuario ---
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- Configuración con secretos (Opcional pero recomendado) ---
+appsettings.Development.json
+.env
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
